@@ -1,0 +1,160 @@
+* {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+}
+
+.carta {
+    display: flex;
+    background-color: #BD0025;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+p {
+    display: flex;
+    gap: 25px;
+}
+
+.insp {
+    background-color: #fff;
+    border: 0;
+    color: #BD0025;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 10px;
+    height: 33px;
+    width: 130px;
+    margin-left: 40px;
+}
+
+.discounts {
+    background-color: #BD0025;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 33px;
+    width: 80px;
+    color: #fff;
+    font-size: medium;
+}
+
+.card {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.practic {
+    background-color: #fff;
+    border: 0;
+    color: #BD0025;
+    font-weight: 550;
+    font-size: medium;
+    border-radius: 10px;
+    height: 33px;
+    width: 110px;
+}
+
+.chery {
+    background-color: #BD0025;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 45px;
+    width: 180px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.tel {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    gap: 25px;
+    margin-right: 45px;
+}
+
+img {
+    width: 102px;
+    height: 30px;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 28px;
+    margin-left: 35px;
+    gap: 40px;
+    margin-right: 35px;
+}
+
+h3 {
+    background-color: #fff;
+    border: 2px solid #5F5F5F;
+    border-radius: 12px;
+    padding: 10px;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+
+input {
+    padding: 13px;
+    border-radius: 12px;
+    background-color: #F2F2F2;
+    border: 0;
+    font-weight: 500;
+    font-size: 15px;
+    width: 540px;
+    outline: 0;
+}
+
+.search {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    display: flex;
+}
+
+.fa-magnifying-glass {
+    background-color: #D70229;
+    color: white;
+    padding: 13px;
+    border-radius: 12px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.catalog{
+    display: flex;
+    font-size: 15px;
+    gap: 14px;
+}
+.chart, .heart, .cart, .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-chart-line, .fa-heart, .fa-cart-shopping, .fa-user{
+    margin-bottom:8px;
+    font-size: large;
+}
